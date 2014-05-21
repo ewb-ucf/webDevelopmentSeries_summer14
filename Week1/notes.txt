@@ -1,0 +1,34 @@
+Learning Objectives:
+
+->understand the basics of clients and servers and be able to explain at a basic level where things go when you Google something and how it gets back to you
+
+->understand html syntax and learn how to make basic pages with tags
+
+
+
+Notes:
+
+Make your own :) ....Google it
+
+Software Tools:
+->sumblime text editor
+->traceroute (optional...just for fun)
+->chrome developer tools
+
+Homework:
+->play with developer tools! 
+->play with the following tags and know how to use them
+	<html>, <body>, <head>, <footer>, <p>, <br>, <ul>, <li>, <ol>, <h1>, <h2>, <b>, <i>
+	...and form tags (http://www.w3schools.com/tags/tag_form.asp)
+
+Extra Practice + Challenges:
+->make an HTML contact form (the buttons wont do anything yet! You'll learn that next class!)
+->make an application form
+
+
+Resources:
+
+->www.w3schools.com
+->www.cs50.net
+->Josh and McKinnley will have office hours posted on the door of the EWB office (ENG1 Rm144).
+They will also we posted on the EWB calendar on our newly published website next week!
