@@ -1,0 +1,39 @@
+body
+{
+    text-align: center;
+    margin: 25% 0% 0% 0%; /* T R B L */
+}
+
+h1
+{
+    font-size: 48pt;
+    color: #357ae8;
+}
+
+input
+{
+    padding: 5px 10px;
+    margin: 0px 0px 10px 0px;
+}
+
+input.btn
+{
+    font-weight: bold;
+    border: 1px solid #000;
+}
+
+input.btn:hover
+{
+    border: 1px solid #999;
+}
+
+footer
+{
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0px;
+    font-family: Arial;
+    font-size: 10pt;
+}
