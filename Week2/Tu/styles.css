@@ -7,18 +7,19 @@ html, body{
 
 div{
     text-align:         center;
-    width:              65%;
+    width:              85%;
     height:             50%;
-    padding:            15% 12% 15% 19%;
+    padding:            18% 9% 15% 5%;
 }
 
 nav{
     float:              left;
-    margin:             0px 200px 0px 0px;
+    margin:             0px 150px 0px 50px;
 }
 
 span{
     float:              right;
+    margin:             3% 0%;
 }
 
 footer{
@@ -66,7 +67,6 @@ a:hover{
 img{
     padding:            0px;
     border:             1px solid #333;
-    /*box-shadow:         3px 3px 10px #333;*/
     transition:         all .7s;
 }
 
