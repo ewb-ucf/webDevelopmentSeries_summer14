@@ -1,0 +1,96 @@
+html, body{
+    width:              100%;
+    height:             100%;
+    margin:             0px 0px;
+    padding:            0px 0px;
+    font-family:        Ubuntu, Arial, Helvetica;
+}
+
+div{
+    text-align:         center;
+    margin:             10% 10%;
+}
+
+nav{
+    float:              left;
+    padding:            0px 0px 0px 10%;
+}
+
+span{
+    float:              right;
+    padding:            5% 10% 0px 0px;
+    max-width:          300px;
+}
+
+footer{
+    width:              100%;
+    position:           fixed;
+    bottom:             0px;
+    font-family:        Arial, Helvetica;
+    font-size:          8pt;
+    color:              #333;
+    margin:             6px auto;
+    padding:            6px 0px;
+    text-align:         center;
+}
+
+h1{
+    color:              #333;
+    font-size:          28pt;
+    font-family:        Ubuntu, Arial, Helvetica;
+}
+
+h1:hover{
+
+}
+
+ul{
+
+}
+
+li{
+    display:        block;
+    padding:        3px 20px 3px 10px;
+    color:          green;
+    text-align:     left;
+}
+
+a{
+    text-decoration:    none;
+    color:              #777;
+    font-family:        Ubuntu, Arial, Helvetica;
+    font-size:          18pt;
+    font-weight:        bold;
+    border-radius:      0px;
+    transition:         all .5s;
+    -webkit-transition: all .5s;
+}
+
+
+a:hover{
+    color:              #444;
+    border-right:       0px solid #333;
+    border-left:        0px solid #333;
+    padding:            4px 20px;
+    border-radius:      8px;
+    transition:         all .5s;
+    -webkit-transition: all .5s;
+
+}
+
+img{
+    border:             1px solid #333;
+}
+
+img:hover{
+    box-shadow:         3px 3px 15px #999;
+}
+
+p{
+    color:              #777;
+    text-align:         left;
+    font-family:        Calibri, Arial;
+    font-size:          10pt;
+    line-height:        1.8;
+
+}

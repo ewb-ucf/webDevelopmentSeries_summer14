@@ -7,37 +7,26 @@ html, body{
 
 div{
     text-align:         center;
-    width:              85%;
-    height:             50%;
-    padding:            18% 9% 15% 5%;
+    margin:             10% 10%;
 }
 
 nav{
-    float:              left;
-    margin:             0px 150px 0px 50px;
 }
 
 span{
-    float:              right;
-    margin:             3% 0%;
 }
 
 footer{
-    position:           fixed;
-    bottom:             0px;
-    width:              100%;
     text-align:         center;
-    font-family:        Arial, Helvetica;
-    font-size:          8pt;
-    color:              #333;
 }
 
 h1{
-    font-family:        Arial, Helvetica;
-    font-size:          36pt;
-    color:              #333;
-    margin:             0px 0px 20px 0px;
-    padding:            0px 0px 20px 0px;
+    color:              blue;
+    font-size:          28pt;
+}
+
+h1:hover{
+
 }
 
 ul{
@@ -45,35 +34,35 @@ ul{
 }
 
 li{
-    display:            block;
-    margin:             3px 20px 3px 10px;
-    padding:            0px 60px 0px 0px;
-    text-align:         right;
+    display:        inline;
+    padding:        0px 10px;
+    color:          green;
 }
 
 a{
+    text-decoration:    none;
+    color:              #888;
     font-family:        Arial, Helvetica;
     font-size:          18pt;
-    color:              #999;
     font-weight:        bold;
-    text-decoration:    none;
+    border-radius:      0px;
     transition:         all .3s;
 }
 
+
 a:hover{
-    color:              #555;
+    color:              #444;
+    border-right:       2px solid #333;
+    border-left:        2px solid #333;
+    padding:            3px 15px;
+    border-radius:      10px;
+    transition:         all .3s;
+
 }
 
 img{
-    padding:            0px;
-    border:             1px solid #333;
-    transition:         all .7s;
+    box-shadow:         3px 3px 15px #999;
 }
 
-img:hover{
-    border:             1px solid #333;
-    box-shadow:         5px 5px 10px #444;
-    transition:         all .7s;
-    transform:          scale(1.03);
-    -webkit-transform:  scale(1.03);
+img:hover{]
 }

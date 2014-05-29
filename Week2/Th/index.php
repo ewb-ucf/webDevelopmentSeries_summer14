@@ -1,9 +1,24 @@
+<?php 
+    // Welcome to PHP
 
+    // this is a PHP comment
+    /*
+        and this,
+        is a multiline comment.
+        everything in between the php tags (<?php and ?>)
+        can contain php code.
+    */
+
+?>
+
+<!DOCTYPE html>
  
 <html>
 <head>
 
     <link rel="stylesheet" type="text/css" href="./styles.css">
+    <!-- this is how you import fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>     
     <meta name="author" content="Josh Kaplan">
     <title>Josh Kaplan</title>
 </head>
@@ -22,7 +37,7 @@
                 </ul>   
         </nav>
         <span>
-            <a href="http://google.com"><img src="propic.jpg" width="310"/></a>
+            <img src="propic.jpg" width="350"/>
         </span>          
     </div>
         
