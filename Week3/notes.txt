@@ -1,0 +1,71 @@
+Tuesday
+=======
+
+Today we will continue PHP in the context of HTML forms and getting user input.
+Watch the video below, either on your own or as a group, to review previous 
+concepts and help introduce new ones.
+
+Video: http://cs50.tv/2013/fall/lectures/9/m/
+
+The first half of this video will review a lot of what we covered concerning
+HTML in past weeks. The second will instroduce PHP and its uses, specifically
+in dealing with HTML forms.
+
+The notes below are meant to elaborate on the files found in Week3/Tu/ to 
+provide you with an example of the use of PHP with HTML forms.
+
+As with last week, copy this week's files into your localhost root directory.
+Keep in mind some of the files have the same names as last weeks examples and
+the may overwrite some files.
+
+
+
+Notes
+---------------------------------------------------------------------
+
+Continuation of  PHP
+---------------------
+PHP is a server-side, interpreted language. This means it runs on the
+web server and can't be seen by the user. PHP can be used to create 
+dynamic pages that respond to user input and interact with databases.
+
+
+GET and POST
+------------
+A few weeks ago we discussed that HTML forms (see Week 1) have methods.
+The two common methods are GET and POST. The primary difference between these
+two methods is that GET requests appear in the URL and POST requests do not.
+GET is useful for things like search results where you may want to share a link
+with a friend. POST is useful when information needs to remain hidden, such as
+when you need to enter credit card information. 
+
+Values submitted through forms can be accessed through a special type of variable
+called a superglobal. In the case of GET and POST, these variables will always
+be called $_GET[] and $_POST[].
+
+Take a look at index.php and hello.php to understand how they work.
+
+Just for fun
+------------
+Try entering the following into the input field:
+
+    <font style="color: red;">Josh</font>
+
+    or
+
+    <script>alert("HACKED!!!! LOL!!!");</script>
+
+Watch what happens.... this is called a cross-site scripting attack
+(it might not work in Chrome... try it in Firefox or Internet Explorer)
+
+
+
+Additional reading
+------------------
+
+GET and POST
+http://www.php.net/manual/en/reserved.variables.get.php
+http://www.php.net/manual/en/reserved.variables.post.php
+
+Cross-Site Scripting
+http://en.wikipedia.org/wiki/Cross-site_scripting
