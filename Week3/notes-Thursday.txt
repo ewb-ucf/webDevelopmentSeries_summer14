@@ -1,0 +1,23 @@
+Thursday
+========
+
+Topics
+------
+Review of PHP and HTML
+Review of GET and POST
+Introduction to MySQL databases
+Using phpMyAdmin for database management
+
+
+Additional reading
+------------------
+
+GET and POST
+http://www.php.net/manual/en/reserved.variables.get.php
+http://www.php.net/manual/en/reserved.variables.post.php
+
+MySQL
+http://www.w3schools.com/php/php_mysql_intro.asp
+http://php.about.com/od/phpwithmysql/ss/mysql_php.htm
+http://dev.mysql.com/doc/
+
