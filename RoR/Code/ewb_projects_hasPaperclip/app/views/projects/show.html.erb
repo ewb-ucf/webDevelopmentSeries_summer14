@@ -1,0 +1,15 @@
+<p>This page shows the project in more detail</p>
+
+<p><%= @project.title %></p>
+
+<% if @project.image_file_name != nil %>
+<p><%= image_tag @project.image.url %></p>
+<% end %>
+
+<p><%= @project.description %></p>
+
+<%= link_to "Edit", edit_project_path(@project) %>
+
+<%=link_to "Delete Project", project_path(@project), method: :delete, data: {confirm: "Really delete the project?"}%></br>
+
+<p><%= link_to 'Goback', projects_path %></p>

@@ -1,0 +1,8 @@
+<p>This is a list of EWB Projects</p>
+<ul>
+	<% @projects.each do |proj| %>
+	<li><%= link_to proj.title, project_path(proj)%></li>
+	<% end %>
+</ul>
+
+<%=link_to "Create new project", new_project_path %></br>

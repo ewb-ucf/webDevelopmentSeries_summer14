@@ -1,0 +1,26 @@
+<%= form_for(@project, html: {multipart: false}) do |p| %>
+  <ul> <% @project.errors.full_messages.each do |error| %>  
+  <li><%= error %></li>
+  <% end %>
+</ul>
+  
+<p>
+    <%= p.label :title %><br />
+    <%= p.text_field :title %>
+</p>
+
+  <p>
+    <%= p.label :description %><br />
+    <%= p.text_area :description %>
+  </p>
+ 
+  <p>
+    <%= p.label :image, "Attach an image" %><br />
+    <%= p.file_field :image %>
+  </p>
+
+<p>
+    <%= p.submit %>
+</p>
+
+<% end %>
