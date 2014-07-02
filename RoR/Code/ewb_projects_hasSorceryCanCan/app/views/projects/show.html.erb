@@ -1,0 +1,19 @@
+<p>This page shows the project in more detail</p>
+
+<p><%= @project.title %></p>
+
+<% if @project.image_file_name != nil %>
+<p><%= image_tag @project.image.url %></p>
+<% end %>
+
+<p><%= @project.description %></p>
+
+<% if can? :edit, @project %>
+<%= link_to "Edit", edit_project_path(@project) %>
+<% end %>
+
+<% if can? :destroy, @project %>
+<%=link_to "Delete Project", project_path(@project), method: :delete, data: {confirm: "Really delete the project?"}%></br>
+<% end %>
+
+<p><%= link_to 'Goback', projects_path %></p>
